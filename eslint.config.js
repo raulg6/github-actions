@@ -3,10 +3,8 @@ const config = [
     {
       languageOptions: {
         globals: {
-          // Define global variables here
           window: 'readonly',
           document: 'readonly',
-          // Add any other global variables you might need
         },
         parserOptions: {
           ecmaVersion: 12,
@@ -14,7 +12,7 @@ const config = [
         },
       },
       rules: {
-        // Your custom rules can be added here
+        // Add your custom rules here
       },
     },
   ];
